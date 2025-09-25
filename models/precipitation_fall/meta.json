@@ -1,0 +1,60 @@
+{
+  "task": "precipitation_fall_3day_sum",
+  "features": [
+    "apparent_temperature_max_mean_14",
+    "apparent_temperature_max_std_14",
+    "apparent_temperature_max_sum_14",
+    "apparent_temperature_min_mean_14",
+    "apparent_temperature_min_std_14",
+    "apparent_temperature_min_sum_14",
+    "dayofyear",
+    "et0_fao_evapotranspiration_mean_14",
+    "et0_fao_evapotranspiration_std_14",
+    "et0_fao_evapotranspiration_sum_14",
+    "is_summer",
+    "month",
+    "precipitation_sum_mean_14",
+    "precipitation_sum_std_14",
+    "precipitation_sum_sum_14",
+    "rain_sum_mean_14",
+    "rain_sum_std_14",
+    "rain_sum_sum_14",
+    "shortwave_radiation_sum_mean_14",
+    "shortwave_radiation_sum_std_14",
+    "shortwave_radiation_sum_sum_14",
+    "sunshine_duration_mean_14",
+    "sunshine_duration_std_14",
+    "sunshine_duration_sum_14",
+    "temperature_2m_max_mean_14",
+    "temperature_2m_max_std_14",
+    "temperature_2m_max_sum_14",
+    "temperature_2m_min_mean_14",
+    "temperature_2m_min_std_14",
+    "temperature_2m_min_sum_14",
+    "wind_gusts_10m_max_mean_14",
+    "wind_gusts_10m_max_std_14",
+    "wind_gusts_10m_max_sum_14",
+    "wind_speed_10m_max_mean_14",
+    "wind_speed_10m_max_std_14",
+    "wind_speed_10m_max_sum_14"
+  ],
+  "split": {
+    "train_end": "2023-12-31",
+    "val_end": "2024-09-30"
+  },
+  "metrics_val": {
+    "name": "sgd[a=0.0003,l1=0.05]_val",
+    "rmse": 15.535309306299567,
+    "mse": 241.34583524239792,
+    "mae": 10.317808218085057,
+    "r2": 0.049725279284488444
+  },
+  "metrics_test": {
+    "name": "sgd[a=0.0003,l1=0.05]_test",
+    "rmse": 9.634185500423468,
+    "mse": 92.81753025656981,
+    "mae": 7.166148148569655,
+    "r2": 0.0447587836870067
+  },
+  "library": "scikit-learn"
+}

@@ -1,0 +1,39 @@
+# Python: 3.11–3.12 recommended
+
+# Allow pip to also search TestPyPI for your internal package
+--extra-index-url https://test.pypi.org/simple
+
+# Your custom package (published on TestPyPI)
+amla-at1==2025.0.1.9
+
+# Core scientific stack
+numpy>=1.26,<2
+pandas>=2.2,<3
+scikit-learn>=1.6,<1.8
+scipy>=1.10,<2
+joblib>=1.3,<2
+pyarrow>=16,<18
+
+# HTTP / data access
+requests>=2.31,<3
+
+# Plotting
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.14
+
+# Notebooks
+ipykernel>=6.29,<7
+jupyterlab>=4.2,<5
+
+# CLI / utilities used in the repo / notebooks
+typer>=0.12,<0.13
+loguru>=0.7,<0.8
+tqdm>=4.66,<5
+python-dotenv>=1.0,<2
+
+# amla-at1 2025.0.1.9 currently pins this; list it explicitly to avoid resolver conflicts
+catboost==1.2.5
+
+# Testing
+pytest>=8.2,<9
+pytest-cov>=5.0,<6
