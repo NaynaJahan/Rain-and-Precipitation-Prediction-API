@@ -94,7 +94,7 @@ requests==2.32.3
 
 ```
 
-The helper package [amla-at1](https://github.com/naynajn/amla_at1_python_pkg) from [TestPyPI](https://test.pypi.org/project/amla-at1/)  (it contains amla_at1.data.openmeteo.fetch_daily_archive and utilities):
+The helper package [Custom Python Package](https://github.com/NaynaJahan/Custom-Python-Package) from [TestPyPI](https://test.pypi.org/project/amla-at1/)  (it contains amla_at1.data.openmeteo.fetch_daily_archive and utilities):
 > Package: amla-at1==2025.0.2.0 (requires joblib==1.4.2)
 
 ### Setting up with `venv` + `pip`
