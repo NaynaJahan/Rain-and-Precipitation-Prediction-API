@@ -12,7 +12,7 @@ This repository contains the experiments used to train two production models for
 ## Project Organization
 
 ```graphql
-amla_at2_experiments
+Rain-and-Precipitation-Prediction-API
 │
 ├── Makefile       
 ├── README.md          <- The top-level README for developers using this project.
