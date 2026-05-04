@@ -220,6 +220,8 @@ Deployment repo expects:
 - models/precipitation_fall/best_precipitation_reg_pipeline.joblib
 - Must carry ._training_columns
 
+The link to the FAST API Repository can be found here: [Open-Meteo-ML_fastapi](https://github.com/NaynaJahan/Open-Meteo-ML_fastapi)
+
 The service reconstructs features from the column names using the naming convention:
 
 ```php-template
